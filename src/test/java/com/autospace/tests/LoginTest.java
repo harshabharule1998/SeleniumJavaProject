@@ -56,11 +56,11 @@ public class LoginTest {
 	@Test(groups = { "regression" }, dependsOnMethods = { "login" })
 	public void bookSearch() throws InterruptedException, IOException {
 		
-		 /*	 
+		 	 
 		 loginPage.launchBrowser(baseUrl);
 		 loginPage.enterUserNameAndPassword();
 		 loginPage.submitLoginForm();
-		 loginPage.verifyLoginSuccesfully();*/
+		 loginPage.verifyLoginSuccesfully();
 		 
 		 profilePage.gotoBookStore();
 		 
